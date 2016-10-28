@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Truemax - Rodul S.A. de C.V.</title>
+
+    <!-- Bootstrap -->
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- jQuery UI stylesheet  -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css">
+
+
+    <!-- WebHostingHub Glyphs -->
+    <link rel="stylesheet" href="css/whhg.min.css">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- DEVELOPMENT STYLES COMPILED FROM LESS SOURCE FILES USING NODE.JS / OVERRIDES BOOTSTRAP DEFAULTS -->
+    <link rel="stylesheet" href="css/custom.min.css">
+  </head>
+
+
+  <body>
+
+    <div id="custom-bootstrap-menu" class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Rodul" class="logo img-responsive"></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Navegación</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-menubuilder">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="bombeo.html">Bombeo</a>
+                    </li>
+                    <li><a href="truemax.html">Truemax</a>
+                    </li>
+                    <li><a href="refacciones.html">Refacciones</a>
+                    </li>
+                    <li class="dropdown" class="dropdown" class="dropdown" class="dropdown" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos <b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="productos.html">Concreto</a>
+                            </li>
+                            <li><a href="productos.html">Distanciadores</a>
+                            </li>
+                            <li><a href="productos.html">Impermeabilizantes</a>
+                            </li>
+                            <li><a href="productos.html">Pinturas</a>
+                            </li>
+                            <li><a href="productos.html">Aditivos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> <!-- menu -->
+
+<div class="container-fluid truemaxHeader">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+
+      <p class="lead truemaxLead">
+        Somos distribuidores exclusivos de la marca Truemax en México.
+        Contamos con una amplia variedad de soluciones en maquinaria de concreto.
+      </p>
+      <img src="img/truemaxlogo.png" class="img-responsive truemaxImg center-block">
+    </div>
+    <div class="col-sm-5">
+      <div id="media-player">
+
+          <video id="videoPlayer" preload="none" poster="img/videocover.jpg" controls>
+              <source src="media/TRUEMAXvideo.mp4" type="video/mp4" />
+              Tu navegador no soporta este elemento de video.
+          </video>
+
+          <div class="media-controls">
+
+              <div id="playControls">
+                  <button type="button" name='Play' class="btn glyphicon glyphicon-play" id="play_btn"></button>
+                  <button type="button" name='Stop' class="btn glyphicon glyphicon-stop" id="stop_btn"></button>
+              </div>
+
+              <div id="progressContainer">
+                   <span id='progress-bar' class="progress-bar" role="progressbar" aria-valuenow="0"  aria-valuemin="0" aria-valuemax="100"></span>
+              </div>
+
+              <div id="timeContainer">
+                  <span id='currentTime'>00:00</span>
+              </div>
+
+              <div id="volumeControls">
+                  <!--<span class="tooltip"></span>-->
+                  <div id="sliderContainer"><div id="slider"></div></div>
+                  <!--<span class="volume"></span>-->
+                  <button id='volumeInc_btn' name='Volume' class="btn icon-volume-up"></button>
+                  <button id='replay_btn' name='Replay' class="btn glyphicon glyphicon-repeat"></button>
+
+              </div>
+
+          </div>
+
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
+
+
+<!-- Tabs -->
+<div class="container truemaxTabs">
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li class="active"><a href="#estacionarias" role="tab" data-toggle="tab">Bombas Estacionarias</a></li>
+        <li><a href="#pluma" role="tab" data-toggle="tab">Bombas Pluma</a></li>
+        <li><a href="#pbooms" role="tab" data-toggle="tab">Placing Booms</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="estacionarias">
+          <div class="container">
+            <br>
+            <h1>Bombas Estacionarias</h1>
+            <br>
+          <p class="lead">Equipo de bombeo versátil y tamaño compacto ideal para todo tipo de obras. A través de una red de tubería de fácil instalación se cubren grandes areas de bombeo.</p>
+          <div class="row row-eq-height">
+          <div class="col-sm-4">
+          <div class="truemaxProducts">
+            <a href="sp701093d.html">
+              <img src="img/t-be-SP70.10.93D.png" alt="SP70.10.93D" class="img-responsive img-thumbnail">
+              <h2>SP70.10.93D</h2></a>
+          </div>
+          <br>
+          </div>
+          <div class="col-sm-4">
+          <div class="truemaxProducts">
+            <a href="sp9018174d.html">
+            <img src="img/t-be-SP90.18.174D-II.png" alt="SP90.18.174D" class="img-responsive img-thumbnail">
+            <h2>SP90.18.174D</h2></a>
+          </div>
+          <br>
+        </div>
+          <div class="col-sm-4">
+          <div class="truemaxProducts">
+            <a href="sp9021220d.html">
+            <img src="img/t-be-SP90.21.220D.png" alt="SP90.21.220D" class="img-responsive img-thumbnail">
+            <h2>SP90.21.220D</h2></a>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+    </div>
+        <div role="tabpanel" class="tab-pane fade" id="pluma">
+          <div class="container">
+            <br>
+            <h1>Bombas Pluma</h1>
+            <br>
+          <p class="lead">Equipo de bombeo de concreto montado sobre camión tipo chasis con alto poder de bombeo, sistema hidráulico confiable de alta capacidad y alcances variables desde los 25m hasta los 47m.</p>
+          <div class="row">
+          <div class="col-sm-4">
+          <div class="truemaxProducts">
+              <a href="tp25m4u.html">
+              <img src="img/t-bp-TP25M4U.png" alt="TP25M4U" class="img-responsive img-thumbnail">
+              <h2>TP25M4U</h2></a>
+          </div>
+          <br>
+          </div>
+          <div class="col-sm-4">
+          <div class="truemaxProducts">
+            <a href="tp33rz5.html">
+            <img src="img/t-bp-TP33RZ5.png" alt="TP33RZ5" class="img-responsive img-thumbnail">
+            <h2>TP33RZ5</h2></a>
+          </div>
+          <br>
+          </div>
+          <div class="col-sm-4">
+          <div class="truemaxProducts">
+            <a href="tp37r4u.html">
+            <img src="img/t-bp-TP37R4U.png" alt="TP37R4U" class="img-responsive img-thumbnail">
+            <h2>TP37R4U</h2></a>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+        <div role="tabpanel" class="tab-pane fade" id="pbooms">
+          <div class="container">
+          <br>
+            <h1>Placing Booms</h1>
+            <br>
+            <p class="lead">Equipo de Bombeo de altura y longitud de brazo variable recomendado para edificaciones facilitando el colocado de concreto en cualquier elemento optimizando tiempos de obra y reduciendo costos, mano de obra y riesgos industriales.</p>
+            <br>
+            <div class="row">
+            <div class="col-sm-6">
+            <h3>Características</h3>
+            <ul>
+              <li>Longitud de brazo: 17m, 24m, 28m, 32m, 35m y 38m.</li>
+              <li>Sistema hidráulico con rotación 360º.</li>
+              <li>Válvulas direccionales Rexroth (Alemania) y  Atos (Italia).</li>
+              <li>Componentes eléctricos Omron y Schneider.</li>
+              <li>Operación alámbrica e inalámbrica.</li>
+            </ul>
+            <br>
+          </div>
+          <div class="col-sm-6">
+            <div id="carousel-example-generic" class="carousel slide pbCarousel" data-ride="carousel">
+  <!-- Indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+  <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+              <div class="item active">
+              <img src="img/t-pb-01.png" alt="Placing Boom">
+          </div>
+          <div class="item">
+              <img src="img/t-pb-02.png" alt="Placing Boom">
+          </div>
+          <div class="item">
+              <img src="img/t-pb-03.png" alt="Placing Boom">
+          </div>
+          </div>
+
+  <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div> <!--end Tabs -->
+  </div> <!--end container -->
+
+  <script src="http://vjs.zencdn.net/5.11.7/video.js"></script>
+  <!-- Video -->
+
+<!-- Footer -->
+<div id="footer">
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+          <h4>Soluciones</h4>
+          <ul>
+            <li><a href="#">Servicios de bombeo</a></li>
+            <li><a href="#">Venta de concreto</a></li>
+            <li><a href="#">Refacciones para maquinaria</a></li>
+            <li><a href="#">Venta de aditivos</a></li>
+        </div>
+        <div class="col-sm-3">
+          <h4>Truemax</h4>
+          <ul>
+            <li><a href="#">Bombas pluma</a></li>
+            <li><a href="#">Bombas estacionarias</a></li>
+            <li><a href="#">Placing booms</a></li>
+        </div>
+        <div class="col-sm-3">
+          <h4>Rodul</h4>
+          <ul>
+            <li><a href="#">¿Quiénes somos?</a></li>
+            <li><a href="#">Obras realizadas</a></li>
+        </div>
+        <div class="col-sm-3">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="tel:55-4613-3273"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> (55) 4613-3273</a></li>
+            <li><a href="tel:55-5344-5853"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> (55) 5344-5853</a></li>
+            <li><a href="mailto:ventas@rodul.com.mx"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> ventas@rodul.com.mx</a></li>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> <!-- footer -->
+
+<div id="subfooter">
+  <p>© 2016 Rodul S.A. de C.V.</p>
+</div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bs/js/bootstrap.min.js"></script>
+
+    <!-- jQuery UI (for sliders)  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <!-- Other helper JS frameworks -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="js/script.min.js"></script>
+
+  </body>
+</html>
