@@ -32,6 +32,11 @@
 
         <!-- DEVELOPMENT STYLES COMPILED FROM LESS SOURCE FILES USING NODE.JS / OVERRIDES BOOTSTRAP DEFAULTS -->
         <link rel="stylesheet" href="css/custom.min.css">
+
+        <link href="http://vjs.zencdn.net/5.12.6/video-js.css" rel="stylesheet">
+
+        <!-- If you'd like to support IE8 -->
+        <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
   </head>
   <body>
 
