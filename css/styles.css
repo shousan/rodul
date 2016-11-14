@@ -77,6 +77,13 @@
     height: 100%;
 }
 
+.bombeoLead {
+  color: #dadada;
+  display: flex;
+  padding-top: 20px;
+}
+
+
 .carousel img {
   min-width: 100%;
 
@@ -103,6 +110,10 @@
 h1, h2, h3, h4 {
   color: rgba(82, 101, 140, 1);
 
+}
+
+.bannerTitle h2 {
+  color: white;
 }
 
 #pbooms li {
@@ -259,6 +270,13 @@ h1, h2, h3, h4 {
   -o-box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
+.videoStyling {
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
 .truemaxLead {
   color: #fff;
   display: flex;
@@ -278,6 +296,29 @@ h1, h2, h3, h4 {
   width: 70%;
   height: auto;
   margin-top: -50px;
+}
+
+//Header Bombeo
+
+.bombeoLead {
+  color: #fff;
+  display: flex;
+  padding-top: 20px;
+}
+
+.carouselBombeo {
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.bombeoHeader {
+  background-color: #677faa;
+  margin-top: -20px;
+  box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 //Service Buttons

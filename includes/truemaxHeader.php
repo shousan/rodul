@@ -1,7 +1,7 @@
 <div class="container-fluid truemaxHeader">
   <div class="row">
     <div class="col-sm-1"></div>
-    <div class="col-sm-5">
+    <div class="col-sm-5 col-sm-offset-1">
 
       <p class="lead truemaxLead">
         Somos distribuidores exclusivos de la marca Truemax en México.
@@ -10,21 +10,21 @@
       <img src="img/truemaxlogo.png" class="img-responsive truemaxImg center-block">
       <br>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       <br>
       <br>
-        <video id="my-video" class="video-js" controls preload="auto" width="640" height="360"
-        poster="img/videocover.jpg" data-setup="{}">
+        <video id="my-video" class="video-js vjs-16-9 vjs-big-play-centered videoStyling" controls preload="auto" width="640" height="360"
+        poster="img/videocover.jpg" data-setup="{'fluid': true}">
         <source src="media/TRUEMAXVideo.mp4" type='video/mp4'>
-          <source src="MY_VIDEO.webm" type='video/webm'>
             <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider upgrading to a web browser that
-              <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              Para ver este video, necesita activar Javascript, considere actualizar su navegador para que
+              <a href="http://videojs.com/html5-video-support/" target="_blank">sea compatible con Video HTML5</a>
             </p>
         </video>
         <br>
         <br>
       </div>
+      <div class="col-sm-1"></div>
     </div>
 </div>
 
