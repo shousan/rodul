@@ -5,23 +5,23 @@
         <div class="col-sm-3">
           <h4>Soluciones</h4>
           <ul>
-            <li><a href="bombeo.html">Servicios de bombeo</a></li>
-            <li><a href="productos.html#concreto">Venta de concreto</a></li>
-            <li><a href="refacciones.html">Refacciones para maquinaria</a></li>
-            <li><a href="productos.html#aditivos">Venta de aditivos</a></li>
+            <li><a href="bombeo.php">Servicios de bombeo</a></li>
+            <li><a href="productos.php#concreto">Venta de concreto</a></li>
+            <li><a href="refacciones.php">Refacciones para maquinaria</a></li>
+            <li><a href="productos.php#aditivos">Venta de aditivos</a></li>
         </div>
         <div class="col-sm-3">
           <h4>Truemax</h4>
           <ul>
-            <li><a href="truemax.html#pluma">Bombas pluma</a></li>
-            <li><a href="truemax.html#estacionarias">Bombas estacionarias</a></li>
-            <li><a href="truemax.html#pbooms">Placing booms</a></li>
+            <li><a href="truemax.php">Bombas pluma</a></li>
+            <li><a href="truemax.php#estacionarias">Bombas estacionarias</a></li>
+            <li><a href="truemax.php#pbooms">Placing booms</a></li>
         </div>
         <div class="col-sm-3">
           <h4>Rodul</h4>
           <ul>
-            <li><a href="quienessomos.html">¿Quiénes somos?</a></li>
-            <li><a href="obras.html">Obras realizadas</a></li>
+            <li><a href="quienessomos.php">¿Quiénes somos?</a></li>
+            <li><a href="obras.php">Obras realizadas</a></li>
         </div>
         <div class="col-sm-3">
           <h4>Contacto</h4>
@@ -45,5 +45,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bs/js/bootstrap.min.js"></script>
+    <script src="js/validate-me.js"></script>
   </body>
 </html>

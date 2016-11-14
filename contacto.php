@@ -10,7 +10,7 @@
 
 <div class="container">
   <h1>Contacto</h1>
-    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <form class="well form-horizontal" action="contact.php" method="post"  id="contact_form">
 <fieldset>
 
 <!-- Form Name -->
@@ -24,18 +24,6 @@
   <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
   <input  name="first_name" placeholder="Nombre" class="form-control"  type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" >Apellido</label>
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="last_name" placeholder="Apellido" class="form-control"  type="text">
     </div>
   </div>
 </div>

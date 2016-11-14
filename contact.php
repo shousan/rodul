@@ -1,21 +1,15 @@
 <?php
 //--------------------------Set these paramaters--------------------------
-
 // Subject of email sent to you.
-$subject = 'My Form Response';
-
+$subject = 'Hay un nuevo mensaje en la página';
 // Your email address. This is where the form information will be sent.
-$emailadd = 'you@yourdomain.com';
-
+$emailadd = 'ventas@rodul.com.mx';
 // From email address. This is who the form information will be sent from.
-$email_from = $_POST['email'];
-
+$email_from = $_POST['ventas@rodul.com.mx'];
 // Where to redirect after form is processed.
 $url = 'javascript://history.go(-1)';
-
 // Makes all fields required. If set to '1' no field can not be empty. If set to '0' any or all fields can be empty.
 $req = '0';
-
 // --------------------------Do not edit below this line--------------------------
 $text = "Results from Contact form:\n\n";
 $space = ' ';
@@ -39,7 +33,7 @@ $conc = "{$key}:$space{$value}$line";
 $text .= $conc;
 $space = ' ';
 }
-// if the 'Gotcha' field is empty 
+// if the 'Gotcha' field is empty
 if(isset($_POST['gotcha']) && $_POST['gotcha'] == ''){
      // then send the form to your email
 mail($emailadd, $subject, $text, 'From: '.$email_from.'');

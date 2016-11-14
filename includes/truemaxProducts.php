@@ -44,7 +44,7 @@
       </div>
     </div>
     </div>
-        <div role="tabpanel" class="tab-pane fade" id="pluma">
+        <div role="tabpanel" class="tab-pane fade" id="pluma" name="pluma">
           <div class="container">
             <br>
             <h1>Bombas Pluma</h1>

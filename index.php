@@ -39,8 +39,9 @@
 
             </div>
           </div>
+        </div>
     </div> <!-- hero -->
-    <div class="container cta">
+    <div class="cta">
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-8">
