@@ -174,14 +174,30 @@ h1, h2, h3, h4 {
   text-decoration: underline;
 }
 
+@media (min-width: 768px) {
+  .mediaMobileHero {
+display: none;
+ }
+  .mediaHero {
+    display: block;
+  }
+}
+
 @media (max-width: 768px) {
 #footer h4{
   border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+  }
+.mediaHero {
+  display: none;
+  }
+  .mediaMobileHero {
+    display: block;
+  }
+
 }
 
 
 
-}
 
 #subfooter {
   background-color: #3e4a63;
@@ -195,11 +211,7 @@ h1, h2, h3, h4 {
   padding-right: 25px;
 }
 
-.cta {
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-
+.cta1 {
   background-color: #677faa;
   color: rgb(240, 240, 240);
   box-shadow: inset 0 5px 10px 3px rgba(0, 0, 0, 0.4);
@@ -207,6 +219,20 @@ h1, h2, h3, h4 {
   -moz-box-shadow: inset 0 5px 10px 3px rgba(0, 0, 0, 0.4);
   -o-box-shadow: inset 0 5px 10px 3px rgba(0, 0, 0, 0.4);
 
+}
+
+.cta {
+  background-color: #677faa;
+  color: rgb(240, 240, 240);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: inset 0 5px 10px 3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 5px 10px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 5px 10px 3px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: inset 0 5px 10px 3px rgba(0, 0, 0, 0.4);
 }
 
 .btn-primary.gradient {
@@ -345,7 +371,7 @@ h1, h2, h3, h4 {
     position:relative;
     overflow:hidden;
     float:left;
-    margin-right:20px
+    margin-right:20px;
 }
 
 .servAnimation li {
@@ -357,13 +383,13 @@ h1, h2, h3, h4 {
     padding:0;
     position:relative;
     cursor:pointer;
-    margin-left:-50px
+    margin-left:-50px;
 }
 .servAnimation figure img {
     display:block;
     position:relative;
     z-index:10;
-    margin:-15px 0
+    margin:-15px 0;
 }
 .servAnimation figure figcaption {
     display:block;
@@ -371,20 +397,20 @@ h1, h2, h3, h4 {
     z-index:5;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
-    box-sizing:border-box
+    box-sizing:border-box;
 }
 .servAnimation figure h2 {
     font-family:'Lato';
     color:#dadada;
-    font-size:30px;
+    font-size:26px;
     text-align:center;
     text-transform: uppercase;
 }
 .servAnimation figure p {
     display:block;
     font-family:'Lato';
-    font-size:22px;
-    line-height:24px;
+    font-size:20px;
+    line-height:20px;
     margin:0;
     color:#dadada;
     text-align:center;
@@ -433,3 +459,12 @@ h1, h2, h3, h4 {
 #accordion a, a:hover, a:active, a:visited, th {
   color: rgba(82, 101, 140, 1);
 }
+
+
+@media (max-width: @screen-md-max){
+
+}
+
+/*.mediaHero {
+    display: none;
+  }*/
