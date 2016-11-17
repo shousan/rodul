@@ -1,8 +1,7 @@
 <!-- Services -->
 <div class="services">
   <div class="row">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-10">
+    <div class="col-sm-10 col-sm-offset-1">
     <div class="serv-1 col-sm-4">
       <ul class="servAnimation">
         <li>
@@ -53,6 +52,5 @@
       </ul>
     </div>
   </div>
-    <div class="col-sm-1"></div>
   </div> <!-- row -->
 </div> <!-- services -->

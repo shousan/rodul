@@ -1,8 +1,8 @@
 <!-- Carousel -->
 <div class="mediaHero">
+  <div class="container-fluid"
   <div id="hero">
     <div class="row cta1">
-      <div class="heroslide col-sm-12">
         <div id="mainHero" class="carousel slide mainCarousel" data-ride="carousel">
 
             <!-- indicators -->
@@ -27,7 +27,6 @@
           </div>
 
         </div>
-      </div>
 
       </div>
     </div> <!-- hero -->
