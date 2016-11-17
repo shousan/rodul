@@ -2,10 +2,15 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
+  color: rgba(82, 101, 140, 1);
 }
 
 div, p {
   font-family: 'Lato', sans-serif;
+}
+
+.text-center {
+  color: #e6e6e6;
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
@@ -99,6 +104,32 @@ div, p {
 
 }
 
+.carousel-indicators-numbers li {
+    text-indent: 0;
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100%;
+    line-height: 30px;
+    color: #fff;
+    background-color: #999;
+    transition: all 0.25s ease;
+  }
+
+.carousel-indicators-numbers li:hover {
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      background-color: rgba(82, 101, 140, 1);
+}
+.carousel-indicators-numbers .active {
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      background-color: rgba(82, 101, 140, 1);
+}
+
 .serv-1, .serv-2, .serv-3 {
   padding-top: 50px;
   margin: 0 auto;
@@ -117,13 +148,8 @@ div, p {
   text-align: center;
 }
 
-h1, h2, h3, h4 {
-  color: rgba(82, 101, 140, 1);
-
-}
-
 .bannerTitle h2 {
-  color: white;
+  color: #e6e6e6;
 }
 
 #pbooms li {
@@ -153,7 +179,7 @@ h1, h2, h3, h4 {
 #footer h4 {
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
+  color: #e6e6e6;
   text-transform: uppercase;
 }
 
@@ -166,7 +192,7 @@ h1, h2, h3, h4 {
 }
 
 #footer a, a:active, a:focus, a:visited {
-  color: white;
+  color: #e6e6e6;
   text-decoration: none;
 }
 
@@ -195,6 +221,7 @@ display: none;
   }
 
 }
+
 
 
 
@@ -289,7 +316,6 @@ display: none;
 }
 
 .truemaxTabs {
-  padding-top: 50px;
   padding-bottom: 50px;
 
 }
@@ -332,6 +358,9 @@ display: none;
   .bombeoLead {
     text-align: center;
   }
+  .refaccionesLead {
+    text-align: center;
+  }
 }
 
 .truemaxImg {
@@ -356,6 +385,15 @@ display: none;
 
 .bombeoHeader {
   background-color: #677faa;
+  margin-top: -20px;
+  box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.refaccionesHeader {
+  background-color: #99a6a5;
   margin-top: -20px;
   box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: inset 5px 5px 10px 5px rgba(0, 0, 0, 0.3);

@@ -2,6 +2,8 @@
 <?php include('includes/header.php'); ?>
 
 <?php include('includes/truemaxHeader.php'); ?>
+<br>
+<br>
 
 <?php include('includes/truemaxProducts.php'); ?>
 

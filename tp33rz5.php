@@ -268,6 +268,8 @@
 </div>
 </div>
 <br>
-
+<div class="container">
+  <h2>Otros Productos</h2>
+</div>
 <?php include('includes/truemaxProductsPluma.php'); ?>
 <?php include('includes/footer.php'); ?>

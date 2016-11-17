@@ -1,6 +1,5 @@
 <!-- Tabs -->
 <div class="container truemaxTabs">
-  <h2>Otros Productos</h2>
   <br>
     <ul class="nav nav-tabs nav-justified" role="tablist">
         <li class="active"><a href="#estacionarias" role="tab" data-toggle="tab">Bombas Estacionarias</a></li>

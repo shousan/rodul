@@ -53,7 +53,7 @@
         <meta name="theme-color" content="#ffffff">
 
   </head>
-  <body>
+  <body style="background-color: rgb(230, 230, 230);">
 
     <div id="custom-bootstrap-menu" class="navbar navbar-default" role="navigation">
         <div class="container">

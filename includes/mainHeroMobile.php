@@ -3,13 +3,13 @@
   <div id="hero">
     <div class="row">
       <div class="heroslide col-sm-6">
-        <div id="myCarousel" class="carousel slide mainCarousel" data-ride="carousel">
+        <div id="mainHeroMobile" class="carousel slide mainCarousel" data-ride="carousel">
 
             <!-- indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+            <ol class="carousel-indicators carousel-indicators-numbers">
+                <li data-target="#mainHeroMobile" data-slide-to="0" class="active">1</li>
+                <li data-target="#mainHeroMobile" data-slide-to="1">2</li>
+                <li data-target="#mainHeroMobile" data-slide-to="2">3</li>
             </ol>
 
             <!-- wrapper for the slides -->
@@ -25,15 +25,6 @@
                     <img src="img/sh-03.png" alt="Truemax">
                 </div>
           </div>
-            <!-- controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
 
         </div>
       </div>
