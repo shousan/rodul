@@ -16,13 +16,13 @@
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-                    <img src="img/shD-01.png" alt="Rodul S.A. de C.V.">
+                    <a href="quienessomos.php"><img src="img/shD-01.png" alt="Rodul S.A. de C.V."></a>
                 </div>
                 <div class="item">
-                    <img src="img/shD-02.png" alt="Rodul S.A. de C.V.">
+                    <a href="truemax.php"><img src="img/shD-02.png" alt="Truemax"></a>
                 </div>
                 <div class="item">
-                    <img src="img/shD-03.png" alt="Truemax">
+                    <a href="bombeo.php"><img src="img/shD-03.png" alt="Servicios de Bombeo"></a>
                 </div>
           </div>
 

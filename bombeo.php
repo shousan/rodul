@@ -3,9 +3,20 @@
 
 
 <?php include('includes/bombeoHeader.php'); ?>
-
-
 <br>
+<div id="container">
+  <div class="row">
+    <div class="col-sm-12 col-sm-offset-2">
+    <ol class="breadcrumb" style="background-color: #e6e6e6; text-transform: uppercase;">
+  <li><a href="index.php">Inicio</a></li>
+  <li class="active">Bombeo</li>
+</ol>
+</div>
+  </div>
+</div>
+<br>
+
+
 <!-- GoogleMaps -->
 <div class="container">
   <h2>Obras destacadas</h2>

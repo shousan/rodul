@@ -1,8 +1,20 @@
 <?php $page_title = "Refacciones - Rodul S.A. de C.V." ?>
 <?php include('includes/header.php'); ?>
 
+
+
 <?php include('includes/refaccionesHeader.php'); ?>
 <br>
+<div id="container">
+  <div class="row">
+    <div class="col-sm-12 col-sm-offset-2">
+    <ol class="breadcrumb" style="background-color: #e6e6e6; text-transform: uppercase;">
+  <li><a href="index.php">Inicio</a></li>
+  <li class="active">Refacciones</li>
+</ol>
+</div>
+  </div>
+</div>
 <br>
 
 <div id="container">
@@ -10,9 +22,9 @@
   <div class="col-sm-12">
   <div class="row">
     <div class="col-sm-3 col-sm-offset-2">
-      <img src="img/ref-tubo5x3.png" class="img-responsive img-rounded img-thumbnail">
+      <img src="img/ref-tubo5x3.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
   <table class="table table-condensed">
     <br>
     <thead>
@@ -52,14 +64,14 @@
 
   <div class="row">
     <div class="col-sm-3 col-sm-offset-2">
-      <img src="img/ref-manguera5x3.png" class="img-responsive img-rounded img-thumbnail">
+      <img src="img/ref-manguera5x3.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
   <table class="table table-condensed">
     <br>
     <thead>
       <tr>
-        <th>Manguera para descarga de concreto 5" x 3m</th>
+        <th>Manguera descarga de concreto 5" x 3m</th>
       </tr>
     </thead>
     <tbody>
@@ -94,14 +106,14 @@
 
   <div class="row">
     <div class="col-sm-3 col-sm-offset-2">
-      <img src="img/ref-manguera5x3.png" class="img-responsive img-rounded img-thumbnail">
+      <img src="img/ref-manguera5x3.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
   <table class="table table-condensed">
     <br>
     <thead>
       <tr>
-        <th>Manguera para descarga de concreto 5" x 4m</th>
+        <th>Manguera descarga de concreto 5" x 4m</th>
       </tr>
     </thead>
     <tbody>
@@ -137,9 +149,9 @@
 
   <div class="row">
     <div class="col-sm-3 col-sm-offset-2">
-      <img src="img/ref-codo.png" class="img-responsive img-rounded img-thumbnail">
+      <img src="img/ref-codo.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
   <table class="table table-condensed">
     <br>
     <thead>
@@ -171,9 +183,9 @@
 
   <div class="row">
     <div class="col-sm-3 col-sm-offset-2">
-      <img src="img/ref-abrazadera.png" class="img-responsive img-rounded img-thumbnail">
+      <img src="img/ref-abrazadera.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
   <table class="table table-condensed">
     <br>
     <thead>
@@ -209,5 +221,7 @@
 </div>
 
 </div>
+<br>
+<br>
 
 <?php include('includes/footer.php'); ?>
