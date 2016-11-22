@@ -19,7 +19,7 @@
           <div class="col-sm-4">
           <div class="truemaxProducts">
             <a href="sp701093d.php">
-              <img src="img/t-be-SP70.10.93D.png" alt="SP70.10.93D" class="img-responsive img-thumbnail">
+              <img src="img/t-be-SP70.10.93D.png" alt="SP70.10.93D" class="img-responsive">
               <h2>SP70.10.93D</h2></a>
           </div>
           <br>
@@ -27,7 +27,7 @@
           <div class="col-sm-4">
           <div class="truemaxProducts">
             <a href="sp9018174d.php">
-            <img src="img/t-be-SP90.18.174D-II.png" alt="SP90.18.174D" class="img-responsive img-thumbnail">
+            <img src="img/t-be-SP90.18.174D-II.png" alt="SP90.18.174D" class="img-responsive">
             <h2>SP90.18.174D</h2></a>
           </div>
           <br>
@@ -35,7 +35,7 @@
           <div class="col-sm-4">
           <div class="truemaxProducts">
             <a href="sp9021220d.php">
-            <img src="img/t-be-SP90.21.220D.png" alt="SP90.21.220D" class="img-responsive img-thumbnail">
+            <img src="img/t-be-SP90.21.220D.png" alt="SP90.21.220D" class="img-responsive">
             <h2>SP90.21.220D</h2></a>
           </div>
           <br>
@@ -53,7 +53,7 @@
           <div class="col-sm-4">
           <div class="truemaxProducts">
               <a href="tp25m4u.php">
-              <img src="img/t-bp-TP25M4U.png" alt="TP25M4U" class="img-responsive img-thumbnail">
+              <img src="img/t-bp-TP25M4U.png" alt="TP25M4U" class="img-responsive">
               <h2>TP25M4U</h2></a>
           </div>
           <br>
@@ -61,7 +61,7 @@
           <div class="col-sm-4">
           <div class="truemaxProducts">
             <a href="tp33rz5.php">
-            <img src="img/t-bp-TP33RZ5.png" alt="TP33RZ5" class="img-responsive img-thumbnail">
+            <img src="img/t-bp-TP33RZ5.png" alt="TP33RZ5" class="img-responsive ">
             <h2>TP33RZ5</h2></a>
           </div>
           <br>
@@ -69,7 +69,7 @@
           <div class="col-sm-4">
           <div class="truemaxProducts">
             <a href="tp37r4u.php">
-            <img src="img/t-bp-TP37R4U.png" alt="TP37R4U" class="img-responsive img-thumbnail">
+            <img src="img/t-bp-TP37R4U.png" alt="TP37R4U" class="img-responsive">
             <h2>TP37R4U</h2></a>
           </div>
           </div>

@@ -24,17 +24,17 @@
     <div class="col-sm-3 col-sm-offset-2">
       <img src="img/ref-tubo5x3.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-5">
   <table class="table table-condensed">
     <br>
     <thead>
       <tr>
-        <th>Tubo e de 5" x 3 metros</th>
+        <th><span class="refName">Tubo e de 5" x 3 metros</span></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><strong>Material:</strong></td>
+        <td>Material:</td>
         <td>Acero ST52</td>
       </tr>
       <tr>
@@ -66,12 +66,12 @@
     <div class="col-sm-3 col-sm-offset-2">
       <img src="img/ref-manguera5x3.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-5">
   <table class="table table-condensed">
     <br>
     <thead>
       <tr>
-        <th>Manguera descarga de concreto 5" x 3m</th>
+        <th><span class="refName">Manguera descarga de concreto 5" x 3m</span></th>
       </tr>
     </thead>
     <tbody>
@@ -108,12 +108,12 @@
     <div class="col-sm-3 col-sm-offset-2">
       <img src="img/ref-manguera5x3.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-5">
   <table class="table table-condensed">
     <br>
     <thead>
       <tr>
-        <th>Manguera descarga de concreto 5" x 4m</th>
+        <th><span class="refName">Manguera descarga de concreto 5" x 4m</span></th>
       </tr>
     </thead>
     <tbody>
@@ -151,12 +151,12 @@
     <div class="col-sm-3 col-sm-offset-2">
       <img src="img/ref-codo.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-5">
   <table class="table table-condensed">
     <br>
     <thead>
       <tr>
-        <th>Codo a 90º de Alta Resistencia</th>
+        <th><span class="refName">Codo a 90º de Alta Resistencia</span></th>
       </tr>
     </thead>
     <tbody>
@@ -185,12 +185,12 @@
     <div class="col-sm-3 col-sm-offset-2">
       <img src="img/ref-abrazadera.png" class="img-responsive img-rounded img-thumbnail center-block">
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-5">
   <table class="table table-condensed">
     <br>
     <thead>
       <tr>
-        <th>Abrazadera de 5"</th>
+        <th><span class="refName">Abrazadera de 5"</span></th>
       </tr>
     </thead>
     <tbody>

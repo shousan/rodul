@@ -2,10 +2,32 @@
 <?php include('includes/header.php'); ?>
 
 <div class="container">
-<h1>TP25M4U</h1>
-<br>
+  <br>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
 <img src="img/t-bp-TP25M4U.png" class="img-responsive img-rounded center-block">
+    </div>
+  <div class="col-sm-6 bg-primary productDesc">
+    <br>
+    <br>
+    <h1 align="center">TP25M4U</h1>
+    <br>
+    <br>
+    <ul>
+      <li><img src="img/truemaxIconW.png" class="truemaxIcon">Stable hydraulic system</li>
+      <li><img src="img/truemaxIconW.png" class="truemaxIcon">Lightweight boom and outrigger</li>
+      <li><img src="img/truemaxIconW.png" class="truemaxIcon">Low-consumption and high efficiency lubrication system</li>
+    </ul>
+    <br>
+    <br>
+  </div>
+</div>
+</div>
+
 <br>
+<br>
+
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
@@ -341,13 +363,13 @@
       </div>
     </div>
   </div>
-
-</div>
+  </div>
 </div>
 <br>
 <div class="container">
   <h2>Otros Productos</h2>
 </div>
-<?php include('includes/truemaxProductsPluma.php'); ?>
+<?php include('includes/truemaxProducts.php'); ?>
+<?php include('includes/allies.php'); ?>
 
 <?php include('includes/footer.php'); ?>
