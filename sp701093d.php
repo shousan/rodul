@@ -1,11 +1,46 @@
 <?php $page_title = "SP70.10.93D - Rodul S.A. de C.V." ?>
 <?php include('includes/header.php'); ?>
+<br>
+<div id="container">
+  <div class="row">
+    <div class="col-sm-12 col-sm-offset-2">
+    <ol class="breadcrumb" style="background-color: #e6e6e6; text-transform: uppercase;">
+  <li><a href="index.php">Inicio</a></li>
+  <li><a href="truemax.php">Truemax</a></li>
+  <li class="active">SP70.10.93D</li>
+</ol>
+</div>
+  </div>
+</div>
+<br>
 
 <div class="container">
-<h1>SP70.10.93D</h1>
-<br>
+  <br>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
 <img src="img/t-be-SP70.10.93D.png" class="img-responsive img-rounded center-block">
+    </div>
+  <div class="col-sm-6 bg-primary productDesc">
+    <br>
+    <br>
+    <h1 align="center">SP70.10.93D</h1>
+    <br>
+    <br>
+    <ul>
+      <li><img src="img/truemaxIconW.png" class="truemaxIcon">Tungsten steel eyes shape sheet and cutting ring for long-lasting life</li>
+      <li><img src="img/truemaxIconW.png" class="truemaxIcon">Hydraulic support stand for easy positioning</li>
+      <li><img src="img/truemaxIconW.png" class="truemaxIcon">Adopts Caterpillar diesel engine, up to 250 Horse Power</li>
+    </ul>
+    <br>
+    <br>
+  </div>
+</div>
+</div>
+
 <br>
+<br>
+
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
@@ -330,5 +365,5 @@
   <h2>Otros Productos</h2>
 </div>
 <?php include('includes/truemaxProducts.php'); ?>
-
+<?php include('includes/allies.php'); ?>
 <?php include('includes/footer.php'); ?>

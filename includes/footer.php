@@ -13,9 +13,9 @@
         <div class="col-sm-3">
           <h4>Truemax</h4>
           <ul>
-            <li><a href="truemax.php">Bombas pluma</a></li>
-            <li><a href="truemax.php#estacionarias">Bombas estacionarias</a></li>
-            <li><a href="truemax.php#pbooms">Placing booms</a></li>
+            <li><a href="truemaxpluma.php">Bombas pluma</a></li>
+            <li><a href="truemax.php">Bombas estacionarias</a></li>
+            <li><a href="truemaxpbooms.php">Placing booms</a></li>
         </div>
         <div class="col-sm-3">
           <h4>Rodul</h4>

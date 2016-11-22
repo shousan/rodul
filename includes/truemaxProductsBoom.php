@@ -10,7 +10,7 @@
 
     <!-- Tab panes -->
     <div class="tab-content">
-        <div role="tabpanel" class="tab-pane fade in" id="estacionarias">
+        <div role="tabpanel" class="tab-pane fade" id="estacionarias">
           <div class="container">
             <br>
             <h1>Bombas Estacionarias</h1>
@@ -44,7 +44,7 @@
       </div>
     </div>
     </div>
-        <div role="tabpanel" class="tab-pane fade in active" id="pluma">
+        <div role="tabpanel" class="tab-pane fade" id="pluma">
           <div class="container">
             <br>
             <h1>Bombas Pluma</h1>
@@ -77,7 +77,7 @@
           </div>
         </div>
       </div>
-        <div role="tabpanel" class="tab-pane fade" id="pbooms">
+        <div role="tabpanel" class="tab-pane fade in active" id="pbooms">
           <div class="container">
           <br>
             <h1>Placing Booms</h1>
